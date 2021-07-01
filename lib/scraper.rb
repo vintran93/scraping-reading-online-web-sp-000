@@ -7,4 +7,4 @@ Nokogiri::HTML(html)
 
 doc = Nokogiri::HTML(html)
 
-doc.css(".headline-260IBN")
+doc.css(".headline-260IBN").text
